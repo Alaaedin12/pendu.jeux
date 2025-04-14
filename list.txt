@@ -1,0 +1,12 @@
+ordinateur
+python
+javascript
+php
+programmation
+mouse
+clavier
+windows
+mac
+teams
+mobile
+vscode

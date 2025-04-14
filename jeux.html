@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deviner le mot</title>
+    <script defer src="jeux.js"></script> <!-- Ajout de 'defer' pour éviter les erreurs de chargement -->
+    <link rel="stylesheet" href="jeux.css">
+</head>
+<body>
+    <main>
+        <div>
+            <h1>Devinez le mot</h1>
+            <p id="word"></p>
+            <input type="text" id="guesse">
+            <button id="submit">Deviner</button>
+            <button id="link">Restart</button>
+            <p id="result"></p>
+            <div id="hangman-container">
+                <img id="base" src="images/hangman0.png" alt="Potence" width="150px">
+                <img id="head" src="images/hangman1.png" alt="Tête" class="hidden" width="150px">
+                <img id="body" src="images/hangman2.png" alt="Corps" class="hidden" width="150px">
+                <img id="left-arm" src="images/hangman3.png" alt="Bras gauche" class="hidden" width="150px">
+                <img id="right-arm" src="images/hangman4.png" alt="Bras droit" class="hidden" width="150px">
+                <img id="left-leg" src="images/hangman5.png" alt="Jambe gauche" class="hidden" width="150px">
+                <img id="right-leg" src="images/hangman6.png" alt="Jambe droite" class="hidden" width="150px">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
